@@ -1,0 +1,6 @@
+T=('kkk','jjj','aaa','bbb')
+tt=list(T)
+tt.sort()
+print(tt)
+T=tuple(tt)
+print(T)

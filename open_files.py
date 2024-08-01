@@ -1,0 +1,6 @@
+myfile=open('myfile.txt','w')
+myfile.write('Hello my guys\n')
+myfile.write('Come on lets do this')
+myfile.close()
+myfile=open('myfile.txt')
+print(myfile.read())

@@ -1,0 +1,11 @@
+k='spaxxy'
+k.replace('x','m')
+print(k)
+g='wolf_warrior'
+l=list(g)
+print(l)
+l[0]='b'
+l[5]='b'
+print(l)
+s=''.join(l)
+print(s)
