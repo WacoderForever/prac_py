@@ -16,7 +16,7 @@ def isPhoneNumber(text):
 
 def main():
     print('Is 414-303-3212 a phone number')
-    print(isPhoneNumber(414-303-3212))
+    print(isPhoneNumber('414-303-3212'))
 
 if __name__=='__main__':
-    run()
+    main()
