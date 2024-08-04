@@ -12,8 +12,12 @@ def leap_year(year):
     else:
         return False
 
-def valid_date(date):
+def date_regex(date):
+    dateRegex=re.compile(r'^[0-3][0-9]\/[0-1][0-2]\/[1-2][0-9][0-9][0-9]$')
+    mo=re.findall(date)
+    return mo.group()
 
-
+def main():
+    
 if __name__=='__main__':
     main()
