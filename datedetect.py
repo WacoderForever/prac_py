@@ -12,8 +12,8 @@ def leap_year(year):
     else:
         return False
 
-def valid_date():
-    
+def valid_date(date):
+
 
 if __name__=='__main__':
     main()
