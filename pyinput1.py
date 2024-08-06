@@ -1,3 +1,4 @@
 import pyinputplus as pyip
 
-response=pyip.inputEmail(prompt="Enter your number:")
+response=pyip.inputMenu(["Cofee","Tea","Juice"],prompt="What would you like?: \n")
+print(f"You selected: {response}")
