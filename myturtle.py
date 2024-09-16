@@ -47,12 +47,7 @@ def triangle_spiral():
 
 def main():
     shape('turtle')
-##  for i in range(75):
-##      square()
- ##      right(5)
- ##   equi_triangle(40*5)
- ##   polygon(6)
-    triangle_spiral()
+    star_spiral()
 
 if __name__=='__main__':
     main()
