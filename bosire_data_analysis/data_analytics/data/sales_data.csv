@@ -1,0 +1,21 @@
+Date,Branch,Product,Quantity,Price,Total,Payment_Method
+2025-10-01,Nakuru,Bread,3,80,240,M-Pesa
+2025-10-01,Eldoret,Milk,5,60,300,Cash
+2025-10-02,Nairobi,Rice,2,150,300,Card
+2025-10-02,Nakuru,Sugar,4,120,480,M-Pesa
+2025-10-03,Eldoret,Cooking Oil,1,500,500,Card
+2025-10-03,Nairobi,Bread,6,80,480,Cash
+2025-10-04,Nakuru,Flour,3,200,600,M-Pesa
+2025-10-04,Eldoret,Rice,5,150,750,Card
+2025-10-05,Nairobi,Milk,10,60,600,Cash
+2025-10-05,Nakuru,Bread,2,80,160,M-Pesa
+2025-10-06,Eldoret,Sugar,3,120,360,M-Pesa
+2025-10-06,Nakuru,Coffee,2,400,800,Card
+2025-10-07,Nairobi,Biscuits,5,100,500,Cash
+2025-10-07,Nakuru,Flour,4,200,800,M-Pesa
+2025-10-08,Eldoret,Bread,6,80,480,Cash
+2025-10-08,Nairobi,Cooking Oil,2,500,1000,Card
+2025-10-09,Nakuru,Milk,8,60,480,M-Pesa
+2025-10-09,Eldoret,Rice,3,150,450,Cash
+2025-10-10,Nairobi,Tea Leaves,1,300,300,M-Pesa
+2025-10-10,Nakuru,Salt,10,50,500,Card

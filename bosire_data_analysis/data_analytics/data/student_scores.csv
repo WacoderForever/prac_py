@@ -1,0 +1,26 @@
+Student_ID,Name,Gender,Course_Code,CAT1,CAT2,Exam,Department
+S001,Achieng Faith,F,CS101,18,20,45,Computer Science
+S002,Kiprotich Kevin,M,CS101,14,16,39,Computer Science
+S003,Wambui Anne,F,CS101,10,12,30,Computer Science
+S004,Otieno Brian,M,CS101,16,15,40,Computer Science
+S005,Mwangi Grace,F,CS101,20,18,47,Computer Science
+S006,Mutiso John,M,CS101,13,17,41,Computer Science
+S007,Cherono Daisy,F,CS101,19,20,48,Computer Science
+S008,Owino Mark,M,CS101,15,14,38,Computer Science
+S009,Wanjiku Leah,F,CS101,12,10,33,Computer Science
+S010,Odhiambo Peter,M,CS101,17,18,44,Computer Science
+S011,Maina Lucy,F,IT102,16,15,42,Information Technology
+S012,Koech Samuel,M,IT102,18,19,46,Information Technology
+S013,Njoki Cynthia,F,IT102,14,16,37,Information Technology
+S014,Mutua Felix,M,IT102,20,20,49,Information Technology
+S015,Kariuki Irene,F,IT102,11,14,35,Information Technology
+S016,Kiplagat Brian,M,SE103,15,17,43,Software Engineering
+S017,Atieno Mercy,F,SE103,19,18,47,Software Engineering
+S018,Muriuki Tony,M,SE103,16,15,40,Software Engineering
+S019,Naliaka Rose,F,SE103,17,16,45,Software Engineering
+S020,Omondi Allan,M,SE103,20,20,50,Software Engineering
+S021,Kemboi Janet,F,DS104,12,15,39,Data Science
+S022,Gitau Chris,M,DS104,14,13,36,Data Science
+S023,Nyambura Eva,F,DS104,18,19,47,Data Science
+S024,Okoth David,M,DS104,17,15,44,Data Science
+S025,Moraa Faith,F,DS104,19,20,48,Data Science

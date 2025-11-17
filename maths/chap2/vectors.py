@@ -14,3 +14,6 @@ def length(v):
 
 def scale(scalar,v):
     return (scalar*v[0],scalar*v[1])
+
+def translate(translation,vectors):
+    return [add(translation,v) for v in vectors]
