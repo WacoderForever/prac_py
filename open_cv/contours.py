@@ -16,5 +16,3 @@ figure()
 # im.flatten converts the 2D im into a 1D array
 hist(im.flatten(),128)
 show()
-
-
