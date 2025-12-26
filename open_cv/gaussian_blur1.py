@@ -3,9 +3,9 @@ from pylab import *
 from numpy import *
 from scipy.ndimage import filters
 
-im = array(Image.open("Baki.jpeg").convert("L"))
-gray()
+im = array(Image.open("Baki.jpeg").convert('L'))
 imshow(im)
+gray()
 im2 = filters.gaussian_filter(im,sigma=1)
 im3 = filters.gaussian_filter(im,sigma=3)
 im4 = filters.gaussian_filter(im,sigma=5)
