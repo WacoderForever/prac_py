@@ -5,7 +5,7 @@ import seaborn as sns
 
 sns.set()
 
-points, cluster_indexes = make_blobs(n_samples=300, cluster_std=0.8, random_state=0)
+points, cluster_indexes = make_blobs(n_samples=300,cluster_std=0.8, random_state=0)
 
 inertias = []
 
