@@ -1,25 +1,20 @@
 import matplotlib.pyplot as plt
-from sklearn.cluster import KMeans
-import pandas as pd
 import seaborn as sns
-from sklearn.preprocessing import LabelEncoder 
+import pandas as pd
+from sklearn.cluster import KMeans
+from sklearn.preprocessing import LabelEncoder
+from multi_seg import points
 
-customers = pd.read_csv('data/customers.csv')
 sns.set()
-df = customers.copy()
-encoder = LabelEncoder()
-df['Gender'] = encoder.fit_transform(df['Gender'])
-
-points = df.iloc[:,1:5].values
 
 inertias = []
 
-for i in range(1,11):
-    kmeans = KMeans(n_clusters=i,random_state=0)
+for i in range (1,10):
+    kmeans = KMeans(n_clusters=i, random_state=0)
     kmeans.fit(points)
     inertias.append(kmeans.inertia_)
 
-plt.plot(range(1,11),inertias)
-plt.xlabel("Number of clusters")
+plt.plot(range(1,10),inertias)
+plt.xlabel("Number of Clusters")
 plt.ylabel("Inertia")
 plt.show()
