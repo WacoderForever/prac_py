@@ -25,4 +25,3 @@ def turtle_spiral():
         length = length + 10
 
 def star():
-    
