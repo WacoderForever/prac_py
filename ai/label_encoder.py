@@ -16,7 +16,7 @@ for i, item in enumerate(encoder.classes_):
 test_labels = ['green', 'red', 'black']
 encoded_values = encoder.transform(test_labels)
 print("\nLabels =", test_labels)
-print("Encoded values =", list(encoded_values))
+print(f"Encoded values = {encoded_values}")
 
 # Decode values using the encoder
 encoded_values = [3, 0, 4, 1]
